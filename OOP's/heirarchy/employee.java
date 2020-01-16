@@ -1,18 +1,20 @@
+package heirarchy;
 import java.util.Scanner;
-
-public class sanction{
-    public static void main(String[] args) {
-        System.out.println("This is main");
-        employee em=new employee();
-        em.getdata();
-    }
-}
 
 class employee{
     String name;
     String designation;
     float salary;
+    approver arr[];
 
+    //The Constructor's
+    employee(String name,String designation,float salary,approver[] arr){
+        this.name=name;
+        this.designation=designation;
+        this.salary=salary;
+        this.arr=arr;
+
+    }
     void getdata(){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Name of Employee:");
@@ -30,11 +32,15 @@ class employee{
     }
 
     public void request(int days){
-        System.out.println();
+        System.out.println(designation+" "+name+" requested "+days+" of leave");
+        if(days<=bal){
+            for(int i=0;i<=arr.length;i++){
+
+
+            }
+        }
     }
 }
 
-public interface approver{
 
-}
 
