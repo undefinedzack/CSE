@@ -8,6 +8,6 @@ public class mainnn{
         own o=new own();
         approver[] arr=new approver[] {p,h,o};
         employee em=new employee("Adhney","Software Enginner",1000000,arr,100);
-        
+        em.request(20);
     }
 }
