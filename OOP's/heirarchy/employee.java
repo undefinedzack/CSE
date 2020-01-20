@@ -5,13 +5,15 @@ class employee{
     String name;
     String designation;
     float salary;
-    approver arr[];
+    int bal;
+    approver[] arr;
 
     //The Constructor's
-    employee(String name,String designation,float salary,approver[] arr){
+    employee(String name,String designation,float salary,approver[] arr,int bal){
         this.name=name;
         this.designation=designation;
         this.salary=salary;
+        this.bal=bal;
         this.arr=arr;
 
     }
@@ -32,9 +34,16 @@ class employee{
     }
 
     public void request(int days){
+        boolean r;
         System.out.println(designation+" "+name+" requested "+days+" of leave");
         if(days<=bal){
             for(int i=0;i<=arr.length;i++){
+               r=approve(arr[i]);
+               if(r==true){
+                   
+               }
+
+
 
 
             }
