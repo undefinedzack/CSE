@@ -1,10 +1,10 @@
-makebuttons()
+//makebuttons()
 function equals(){
-    let a=document.getElementById("result").value
+    let a=document.getElementById("r1").value
     
     let b=eval(a)
 
-    document.getElementById("result").value=b
+    document.getElementById("r1").value=b
 }
 
 function makebuttons(){
@@ -29,9 +29,9 @@ function makebuttons(){
 }
 
 function dis(val){
-    document.getElementById("result").value+=val;
+    document.getElementById("r1").value+=val;
 }
 
 function clr(){
-    document.getElementById("result").value=""
+    document.getElementById("r1").value=""
 }

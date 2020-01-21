@@ -1,0 +1,41 @@
+#calci{
+    background-color:whitesmoke;
+    margin-left: 500px;
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#inndisp{
+    background-color:red;
+    height: 120px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#bottom{
+    padding: 20px;
+}
+
+#butn{
+    background-color:#ede8e8;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-style: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#r1{
+    padding: 0px;
+    width: 296px;
+    height: 116px;
+    background-color: red;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: none;
+}
