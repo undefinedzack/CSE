@@ -8,7 +8,7 @@ public class fast{
         try {
             mn.positive();
         } catch (ArithmeticException e) {
-            //TODO: handle exception
+            
             System.out.println("This is it");
         }
     }
