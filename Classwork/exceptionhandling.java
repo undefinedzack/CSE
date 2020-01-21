@@ -1,13 +1,13 @@
 package Classwork;
 public class exceptionhandling{
-    public static void main(String args[]) {
+    public void main(String args[]) {
         try{
         int a=0;
-        throw new NullPointException();
-        int b=42/a;
+        throw new ArithmeticException();
+        //int b=42/a;
         }
-        catch (NullPointException e) {
-            //TODO: handle exception
+        catch (ArithmeticException e) {
+            
             System.out.println("This is error"+e);
             
         }
