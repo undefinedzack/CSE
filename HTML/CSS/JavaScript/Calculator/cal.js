@@ -16,7 +16,7 @@ function makebuttons(){
         
         output=output+"<tr>"
         while(j<=3){
-            output=output+"<td>"+"<input type=\"button\" value=\""+k+"\" onclick=\"dis('"+k+"')\"></input>"+"</td>"
+            output=output+"<td>"+"<input id=\"butn\" type=\"button\" value=\""+k+"\" onclick=\"dis('"+k+"')\"></input>"+"</td>"
             j++
             k++
         }

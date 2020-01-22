@@ -30,12 +30,27 @@
 }
 
 #r1{
-    padding: 0px;
+    padding: 50px;
     width: 296px;
     height: 116px;
     background-color: red;
-    
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-style: none;
+}
+
+#clrrr{
+    background-color:#ede8e8;
+    width: 262px;
+    height: 40px;
+    border-radius: 10px;
+}
+#clear{
+    border-style: none;
+    width: 258px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #ede8e8;
 }
