@@ -22,7 +22,8 @@
     background-color:#ede8e8;
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
+    font-size: x-large;
+    
     border-style: none;
     border-radius: 50%;
     height: 50px;
@@ -34,7 +35,7 @@
     width: 296px;
     height: 116px;
     background-color: red;
-    font-size: xx-large;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
