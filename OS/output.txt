@@ -1,0 +1,314 @@
+undefinedzack@undefinedzack-VirtualBox:~/CSE/OS$ gcc prac#2.c -o x2
+undefinedzack@undefinedzack-VirtualBox:~/CSE/OS$ ./x2
+ The Current Working Directory is: /home/undefinedzack/CSE/OS
+The directory is opened.
+File Name's: x3
+d.st_size:16912
+d.st_mode:33261
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: x2
+d.st_size:17120
+d.st_mode:33261
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey.txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (another copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (9th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (8th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (7th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (6th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (5th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (4th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (3rd copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (27th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (26th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (25th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (24th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (23rd copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (22nd copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (21st copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (20th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (19th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (18th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (17th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (16th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (15th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (14th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (13th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (12th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (11th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: shrey (10th copy).txt
+d.st_size:23
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: prac#3.c
+d.st_size:554
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: prac#2.c
+d.st_size:1324
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: prac#1.c
+d.st_size:1971
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: ex2.c
+d.st_size:215
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: ex2
+d.st_size:16784
+d.st_mode:33261
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: ex1.c
+d.st_size:443
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: ex1
+d.st_size:16880
+d.st_mode:33261
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: ex
+d.st_size:16784
+d.st_mode:33261
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: eosort.c
+d.st_size:1301
+d.st_mode:33188
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: eo
+d.st_size:17104
+d.st_mode:33261
+d.st_nlink:1
+d.st_gid:1000
+
+File Name's: ..
+d.st_size:4096
+d.st_mode:16877
+d.st_nlink:6
+d.st_gid:1000
+
+File Name's: .
+d.st_size:4096
+d.st_mode:16877
+d.st_nlink:2
+d.st_gid:1000
+
+Checking duplicate files
+duplicate file ex2 found
+files have been deleted
+duplicate file shrey (11th copy).txt found
+files have been deleted
+duplicate file shrey (12th copy).txt found
+files have been deleted
+duplicate file shrey (13th copy).txt found
+files have been deleted
+duplicate file shrey (14th copy).txt found
+files have been deleted
+duplicate file shrey (15th copy).txt found
+files have been deleted
+duplicate file shrey (16th copy).txt found
+files have been deleted
+duplicate file shrey (17th copy).txt found
+files have been deleted
+duplicate file shrey (18th copy).txt found
+files have been deleted
+duplicate file shrey (19th copy).txt found
+files have been deleted
+duplicate file shrey (20th copy).txt found
+files have been deleted
+duplicate file shrey (21st copy).txt found
+files have been deleted
+duplicate file shrey (22nd copy).txt found
+files have been deleted
+duplicate file shrey (23rd copy).txt found
+files have been deleted
+duplicate file shrey (24th copy).txt found
+files have been deleted
+duplicate file shrey (25th copy).txt found
+files have been deleted
+duplicate file shrey (26th copy).txt found
+files have been deleted
+duplicate file shrey (27th copy).txt found
+files have been deleted
+duplicate file shrey (3rd copy).txt found
+files have been deleted
+duplicate file shrey (4th copy).txt found
+files have been deleted
+duplicate file shrey (5th copy).txt found
+files have been deleted
+duplicate file shrey (6th copy).txt found
+files have been deleted
+duplicate file shrey (7th copy).txt found
+files have been deleted
+duplicate file shrey (8th copy).txt found
+files have been deleted
+duplicate file shrey (9th copy).txt found
+files have been deleted
+duplicate file shrey (another copy).txt found
+files have been deleted
+duplicate file shrey (copy).txt found
+files have been deleted
+duplicate file shrey.txt found
+files have been deleted
+

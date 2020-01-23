@@ -46,8 +46,8 @@ int main(){
 			{
 				stat(files[j]->d_name,&s2);
 				if (s1.st_size==s2.st_size){
-					if(s1.st_nlink==s2.st_gid){
-						if(s1.st_gid==s2.st_mode){
+					if(s1.st_nlink==s2.st_nlink){
+						if(s1.st_gid==s2.st_gid){
 							printf("duplicate file %s found\n",files[j]->d_name);
 							unlink(files[j]->d_name);
 							printf("files have been deleted\n");
