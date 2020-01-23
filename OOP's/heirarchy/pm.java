@@ -2,8 +2,10 @@ package heirarchy;
 
 
 class pm extends employee implements approver{
-    boolean approve(int days){
-        
+    boolean approve(pm p){
+        if(days<=10){
+
+        }
     }
 
     

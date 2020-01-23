@@ -38,15 +38,16 @@ class employee{
         System.out.println(designation+" "+name+" requested "+days+" of leave");
         if(days<=bal){
             for(int i=0;i<=arr.length;i++){
-               r=approve(arr[i]);
+               approver a=new approver();
+               r=a.
                if(r==true){
-                   
+                   System.out.println("Thank You");
+                   break;
                }
-
-
-
-
             }
+        }
+        else{
+            System.out.println("Sorry! You can't apply for the holidays.\n")
         }
     }
 }
