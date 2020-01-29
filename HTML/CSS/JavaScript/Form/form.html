@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script type="text/javascript" src="frm.js"></script>
+        <link rel="stylesheet" href="frm.css">
+
+    </head>
+    <body>
+        <form name="formie">
+            <table align="center">
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="text" name="email" required/> </td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username" required/> </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="pass"/> </td>
+                </tr>
+                <tr>
+                    <td>Repeat Password</td>
+                    <td><input type="password" name="rpass"/> </td>
+                </tr>
+                <tr>
+                    <td>Birth Date</td>
+                    <td><input type="number" placeholder="DDMMYYYY" name="birth"/> </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input type="text" name="country"/> </td>
+                </tr>
+                <tr>
+                    <td>Profile Image</td>
+                    <td><input type="file" name="pfp" value="upload"/> </td>
+                </tr>
+                <tr>
+                    <td>User Presentation</td>
+                    <td><input type="text" name="usrpresentation"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" />I agree to the <b>terms and services</b></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" value="Validate" onclick="submittt()"/><input type="button" value="Reset Form"/></td>
+                </tr>
+            </table>
+            
+        </form>
+    </body>
+</html>
