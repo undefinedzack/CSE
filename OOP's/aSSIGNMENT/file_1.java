@@ -1,11 +1,10 @@
 
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class file_1{
+public class f1 {
     public static void main(String[] args) throws IOException {
         int num;
         File f1=new File("numbers.txt");
@@ -27,15 +26,36 @@ public class file_1{
 //            f1.close();
 //        }
         
-
+            int[] even=new int[10];
+            int[] odd=new int[10];
+            int i=0,j=0;
             while(scn.hasNextLine()){
                 int data=Integer.parseInt(scn.nextLine());
                 if(data%2==0){
-                    System.out.println("Even");
+                    //System.out.println("Even");
+                    even[i]=data;
+                    i++;
                 }
                 else{
-                    System.out.println("Odd");
+                    //System.out.println("Odd");
+                    odd[j]=data;
+                    j++;
                 }
+            }
+            int e=i,o=j;
+            i=j=0;
+            System.out.println("Even Numbers:");
+            while(i<e){
+                
+                System.out.println(even[i]);
+                i++;
+        
+            }
+            System.out.println("Odd Numbers:");
+            while(j<o){
+                
+                System.out.println(odd[j]);
+                j++;
             }
 
     }
