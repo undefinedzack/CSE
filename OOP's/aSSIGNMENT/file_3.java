@@ -1,6 +1,6 @@
-package com;
+
 import java.util.Scanner;
-public class f3{
+public class file_3{
     public static void main(String args[]){
         vehicleee v=new vehicleee();
         try{
