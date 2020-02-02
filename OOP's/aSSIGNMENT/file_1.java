@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class f1 {
+public class file_1 {
     public static void main(String[] args) throws IOException {
         int num;
         File f1=new File("numbers.txt");
