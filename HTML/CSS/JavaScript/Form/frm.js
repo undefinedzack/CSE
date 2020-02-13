@@ -1,9 +1,11 @@
 function submittt(){
     
-    var email=document.formie.email.value; var atpos=email.indexof("@"); var last=lastIndexof(".");
+    var email=document.formie.email.value; 
+    var atpos=email.indexOf("@"); 
+    var last=email.lastIndexOf(".");
     var pass=document.formie.pass.value;
     var rpass=document.formie.rpass.value;
-    var birth=document.formie.birth.value;
+    // var birth=document.formie.birth.value;
     if(email=="" || email=="NULL"){
         alert("This is invalid email BRUH!")
     }

@@ -5,39 +5,41 @@
 
     </head>
     <body>
-        <form name="formie">
-            <table align="center">
+        <div id="formie">
+        <form name="formie" onsubmit="return validateForm()">
+            <table>
                 <tr>
                     <td>E-mail</td>
-                    <td><input type="text" name="email" required/> </td>
+                    <td><input type="text" name="email" /> </td>
+                    <span id="email"></span>
                 </tr>
                 <tr>
                     <td>Username</td>
-                    <td><input type="text" name="username" required/> </td>
+                    <td><input type="text" name="username" /> </td>
                 </tr>
                 <tr>
                     <td>Password</td>
-                    <td><input type="password" name="pass"/> </td>
+                    <td><input type="password" name="pass" /> </td>
                 </tr>
                 <tr>
                     <td>Repeat Password</td>
-                    <td><input type="password" name="rpass"/> </td>
+                    <td><input type="password" name="rpass" /> </td>
                 </tr>
                 <tr>
                     <td>Birth Date</td>
-                    <td><input type="number" placeholder="DDMMYYYY" name="birth"/> </td>
+                    <td><input type="number" placeholder="DDMMYYYY" name="birth" /> </td>
                 </tr>
                 <tr>
                     <td>Country</td>
-                    <td><input type="text" name="country"/> </td>
+                    <td><input type="text" name="country" /> </td>
                 </tr>
                 <tr>
                     <td>Profile Image</td>
-                    <td><input type="file" name="pfp" value="upload"/> </td>
+                    <td><input type="file" name="pfp" value="upload" /> </td>
                 </tr>
                 <tr>
                     <td>User Presentation</td>
-                    <td><input type="text" name="usrpresentation"/></td>
+                    <td><input type="text" name="usrpresentation" /></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -45,10 +47,12 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="button" value="Validate" onclick="submittt()"/><input type="button" value="Reset Form"/></td>
+                    <td><input type="button" value="Validate" onclick="submittt()" />
+                        <input type="button" value="Reset Form" onclick="submittt()" /></td>
                 </tr>
             </table>
             
         </form>
+        </div>
     </body>
 </html>
