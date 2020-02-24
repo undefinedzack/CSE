@@ -1,0 +1,63 @@
+<html>
+<head>
+<link rel="stylesheet" href ="C:\Users\HP\Desktop\New folder\6\6css.css">>
+<title>Solar System</title>
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<canvas id="canvas" width="800" height="700" style="border:1px solid #d3d3d3;">
+<img id="earth" src="https://www.bing.com/th?id=OIP.WAhCJ5RdyyZyhBYx4hh9JgHaHa&pid=Api&rs=1">
+<img id="sun" src="https://www.bing.com/th?id=OIP.oriJxgXtDzET_OD-jqAocwHaHa&pid=Api&rs=1">
+<img id="moon" src="https://www.bing.com/th/id/OIP.owPIV0jmWombJP0mSxWaVwHaHa?pid=Api&rs=1">
+</canvas>
+
+<script type="text/javascript">
+var canvas= document.getElementById("canvas");
+ctx=canvas.getContext("2d");
+cw=canvas.width;
+ch=canvas.height;
+time = 1;
+    var img1=document.getElementById("earth");
+    var img3=document.getElementById("moon");
+    var img2=document.getElementById("sun");
+       
+  function circle(radius,x,y){
+    a=x;
+   b=y;  
+   ctx.arc(a,b,radius,0,2*Math.PI,true);  
+   //ctx.stroke();  
+  }
+ 
+function animate(){
+    ctx.save();
+   ctx.fillStyle = "black";
+   ctx.fillRect(0,0,cw,ch);
+   
+    //sun
+    circle(280,350,300)
+    ctx.drawImage(img2,250,200,220,210);
+
+    // //earth
+    ctx.translate(350,300);    
+    ctx.rotate(time/60- (time/80));
+    ctx.drawImage(img1,200,-30,150,80);
+    ctx.translate(150,10)
+    circle(70,130,0);
+   
+    // //moon
+    ctx.translate(130,0)
+    ctx.rotate(time/10-(time/80));
+    ctx.drawImage(img3,55,-15,44,26.25);
+
+
+    ctx.restore();
+    time++;
+    window.requestAnimationFrame(animate);
+    }
+window.requestAnimationFrame(animate);
+</script>
+
+
+</body>
+</html>
