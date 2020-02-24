@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - tree",
+            "request": "launch",
+            "mainClass": "tree",
+            "projectName": "CSE_2402ebd2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - treee",
+            "request": "launch",
+            "mainClass": "treee",
+            "projectName": "CSE_2402ebd2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - file_5",
             "request": "launch",
             "mainClass": "file_5",

@@ -1,5 +1,5 @@
 import java.io.File;
-public class treee {
+public class tree {
     public static void main(String args[]){
         File f=new File("F:\\A");
         direct d= new direct();
