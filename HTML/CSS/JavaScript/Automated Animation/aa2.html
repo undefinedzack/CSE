@@ -7,7 +7,7 @@
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <canvas id="canvas" width="800" height="700" style="border:1px solid #d3d3d3;">
-<img id="earth" src="https://www.bing.com/th?id=OIP.WAhCJ5RdyyZyhBYx4hh9JgHaHa&pid=Api&rs=1">
+<img id="earth" src="https://mdn.mozillademos.org/files/1429/Canvas_earth.png">
 <img id="sun" src="https://www.bing.com/th?id=OIP.oriJxgXtDzET_OD-jqAocwHaHa&pid=Api&rs=1">
 <img id="moon" src="https://www.bing.com/th/id/OIP.owPIV0jmWombJP0mSxWaVwHaHa?pid=Api&rs=1">
 </canvas>
@@ -24,13 +24,13 @@ time = 1;
        
   function circle(radius,x,y){
     a=x;
-   b=y;  
+    b=y;  
    ctx.arc(a,b,radius,0,2*Math.PI,true);  
    //ctx.stroke();  
   }
  
 function animate(){
-    ctx.save();
+   ctx.save();
    ctx.fillStyle = "black";
    ctx.fillRect(0,0,cw,ch);
    
