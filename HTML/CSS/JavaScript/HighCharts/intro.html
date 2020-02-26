@@ -1,0 +1,63 @@
+<html>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <body>
+        <div id="container" style="height: 900px;"></div>
+        <script>
+            Highcharts.chart('container',{
+                chart: {
+                    type: 'line'
+                },
+
+                title: {
+                    text: 'Solar Employment Growth by Sector, 2010-2016'
+                },
+
+                subtitle: {
+                    text: 'Source: thesolarfoundation.com'
+                },
+
+                xAxis: {
+                    categories: ['2010','2011','2012','2013','2014','2015','2016','2017']
+                },
+
+                yAxis: {
+                    title:{
+                        text: 'Number of Employees'
+                    }
+                },
+
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'middle'
+                },
+
+                series: [{
+                    type: 'line',
+                    name: 'Installation',
+                    data: [1,2,3,4,5,6,7,8]
+                } , {
+                    type: 'line',
+                    name: 'Manufacturing',
+                    data: [5,7,6,12,9,7,2,10]
+                } , {
+                    type: 'line',
+                    name: 'Sales & Distribution',
+                    data: [12,13,5,1,7,3,2,1]
+                } , {
+                    type: 'line',
+                    name: 'Project Development',
+                    data: [12,4,4,5,9,6,15,14]
+                } , {
+                    type: 'line',
+                    name: 'Other',
+                    data: [13,6,5,7,15,5,9,11]
+                }]
+            })
+        </script>
+
+        <p>
+            Basic line chart showing trends in dataset. this chart includes the series-label module, which adds a label to each line for enhanced readibility
+        </p>
+    </body>
+</html>

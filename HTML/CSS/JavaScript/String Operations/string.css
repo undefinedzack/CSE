@@ -1,0 +1,39 @@
+#reverse{
+    margin-left: 700px;
+    height: 200px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: xx-large;
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
+    font-family: 'Open Sans', ;
+    font-family: 'Source Code Pro', ;
+    background-color: aqua;
+}
+
+#concat{
+    margin-left: 700px;
+    height: 300px;
+    border-radius: 1000px;
+    width: 300px;
+    font-size: xx-large;
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
+    font-family: 'Open Sans', ;
+    font-family: 'Source Code Pro', ;
+    background-color: orchid;
+}
+
+#vowel{
+    margin-left: 700px;
+    height: 300px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: xx-large;
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
+    font-family: 'Open Sans', ;
+    font-family: 'Source Code Pro', ;
+    background-color: tomato;
+}
+
+.col-1 {float:left}
+.col-2 {float:left;padding-left:25px;}
+

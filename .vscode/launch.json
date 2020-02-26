@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LeaveHeirarchy",
+            "request": "launch",
+            "mainClass": "LeaveHeirarchy",
+            "projectName": "CSE_2402ebd2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - tree",
             "request": "launch",
             "mainClass": "tree",
