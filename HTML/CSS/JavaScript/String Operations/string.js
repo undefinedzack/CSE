@@ -1,14 +1,3 @@
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-    document.getElementById("myImg").className = "slideUp";
-  }
-}
-
-
-
-
 function reverse(){
     var str=prompt("Enter the String");
     var revstr="";
@@ -17,11 +6,8 @@ function reverse(){
         revstr=revstr+str[i];
     }
 
-    alert("the reversed string is: "+revstr)
+    alert("the reversed string is: "+revstr);
 }
-
-
-
 
 function concat(){
     var str1=prompt("Enter string 1");
@@ -29,7 +15,7 @@ function concat(){
 
     var str3=str1+str2;
 
-    alert("The concatanated string is: "+str3)
+    alert("The concatanated string is: "+str3);
 }
 
 function vowel(){

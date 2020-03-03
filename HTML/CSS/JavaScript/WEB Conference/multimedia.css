@@ -1,0 +1,39 @@
+.container {
+	height: 950px;
+	width: 100%;
+  
+   background-color:black;
+  
+}
+
+.first{
+  background-color:#ffe6e6;
+  
+  height: 40px;
+  width: 100%;
+   
+  align-items: center;
+ 
+
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  
+  border-radius: 50%;
+  
+}
+.second{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 50px;
+  height: 40px;
+  width: 1830px;  
+  align-items: center;
+}
+
+.third{
+	margin-top: 200px;
+	margin-left:140px;
+}

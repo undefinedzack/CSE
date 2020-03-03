@@ -1,39 +1,37 @@
-#reverse{
-    margin-left: 700px;
-    height: 200px;
-    border-radius: 10px;
-    width: 400px;
-    font-size: xx-large;
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
-    font-family: 'Open Sans', ;
-    font-family: 'Source Code Pro', ;
-    background-color: aqua;
-}
-
-#concat{
-    margin-left: 700px;
+#rev{
     height: 300px;
-    border-radius: 1000px;
+    background-color: cyan;
     width: 300px;
-    font-size: xx-large;
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
-    font-family: 'Open Sans', ;
-    font-family: 'Source Code Pro', ;
-    background-color: orchid;
-}
-
-#vowel{
-    margin-left: 700px;
-    height: 300px;
+    margin-left: 1050px;
+    position: absolute;
     border-radius: 10px;
-    width: 300px;
     font-size: xx-large;
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
-    font-family: 'Open Sans', ;
-    font-family: 'Source Code Pro', ;
-    background-color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.col-1 {float:left}
-.col-2 {float:left;padding-left:25px;}
+#con{
+    background-color: blueviolet;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 350px;
+}
+
+#vow{
+    background-color: darkorange;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 300px;
+    width: 300px;
+    margin-left: 700px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+
+
 
