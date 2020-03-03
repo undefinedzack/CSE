@@ -1,0 +1,42 @@
+.b1{
+	width: 300px;
+	height: 50px;
+	background-color: gold;
+	font-size: 40px;
+
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.b2{
+	width: 300px;
+	height: 50px;
+	font-size: 40px;
+	background-color: silver;
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.b3{
+	width: 300px;
+	height: 50px;
+	font-size: 40px;
+	background-color: darkgray;
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+	background-color: black;
+	font-style: sans-serif;
+}
+
+table{
+	width: 100%;
+}

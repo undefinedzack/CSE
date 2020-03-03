@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="buyticketsstyle.css">
+
+	<script type="text/javascript">
+		function gold(){
+			var str = prompt("No. of seats :");
+			var y=100;
+			var x;
+			x=y*str;
+			window.alert("Total Price : "+x)
+		}
+		function silver(){
+			var str = prompt("No. of seats :");
+			var y=75;
+			var x;
+			x=y*str;
+			window.alert("Total Price : "+x)
+		}
+		function platinum(){
+			var str = prompt("No. of seats :");
+			var y=150;
+			var x;
+			x=y*str;
+			window.alert("Total Price : "+x)
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h2 style="color: white">Categories :</h2>
+	</center>
+	<br><br><br>
+	<table>
+		<tr>
+		<td>
+		<button class="b3" onclick="platinum()">Platinum</button>
+		<h2 style="color: white">Price : 150 RS.</h2>
+	</td>
+
+	<td>
+		<button class="b1" onclick="gold()">Gold</button>
+		<h2 style="color: white">Price : 100 RS.</h2>
+	</td>
+	<td>
+		<button class="b2" onclick="silver()">Silver</button>
+		<h2 style="color: white">Price : 75 RS.</h2>
+	</td>
+	</tr>
+	</table>
+
+	
+</body>
+</html>

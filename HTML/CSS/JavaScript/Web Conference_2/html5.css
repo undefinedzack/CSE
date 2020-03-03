@@ -1,0 +1,145 @@
+nav{
+	float: right;
+	width: 35%;
+	height: 10%;
+}
+
+.top{
+	border-radius: 22px 22px 0px 0px;
+	width: 200;
+	height: 40px;
+	text-align: left;
+	font-size: 100px;
+	color: blue;
+}
+.button1{
+	background-color: red;
+	border: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.button2{
+	background-color: yellow;
+	border: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.button3{
+	background-color: green;
+	border: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+body{
+	background-color: black;
+	font-family:Arial;
+	font-weight: 300;
+}
+header{
+	background-color: lightgrey;
+	height: 25px;
+	border-radius: 2px;
+}
+
+input{
+	width: 500px;
+	border-radius: 3px;
+
+}
+table{
+	width: 100%;
+}
+.buytickets{
+	background-color: black;
+	border-color: gray;
+	border-width: 1px;
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mid{
+	color: white;
+	width: 300px;
+	font-size: 25px;
+	text-align: center;
+}
+.mid2{
+	width: 620px;
+	font-size: 100px;
+	text-align: center;
+
+	border-color: gray;
+	border-width: 1px;
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mid3{
+	width: 900px;
+	font-size: 100px;
+	text-align: center;
+
+	border-color: gray;
+	border-width: 1px;
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mid4{
+	color: white;
+	width: 41%;
+	font-size: 25px;
+	text-align: center;
+}
+
+.bt{
+	height: 50px;
+	width: 180px;
+	font-size: 20px;
+	float: center;
+	background-color: #383838;
+	border:none;
+}
+.btt{
+	float: center;
+	width: 20%;
+}
+.h{
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ws{
+	float: left;
+	font-size: 25px;
+	color: white;
+}
+.ws1{
+	float: left;
+	font-size: 25px;
+	background: linear-gradient(#c21500, #ff8008);
+  /*background: linear-gradient(darkred, #f09819);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+option{
+	color: white;
+}
